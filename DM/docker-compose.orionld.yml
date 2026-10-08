@@ -1,0 +1,28 @@
+services:
+  mongo:
+    image: mongo:4.4
+    restart: unless-stopped
+    command: ["mongod", "--bind_ip_all"]
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongo", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  orion-ld:
+    image: fiware/orion-ld:latest
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+    ports:
+      - "1026:1026"
+    environment:
+      ORIONLD_LOG_LEVEL: INFO
+      ORIONLD_MONGO_HOST: mongo
+    command: ["-dbhost", "mongo"]
+
+volumes:
+  mongo-data:

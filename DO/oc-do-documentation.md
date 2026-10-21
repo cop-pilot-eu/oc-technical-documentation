@@ -41,7 +41,7 @@ realms/master -s sslRequired=NONE
 
 # 🧩 Application Deployment via Domain Orchestrator
 
-Before creating your service specification, please navigate to the presentation on the project's [SharePoint](https://netcompany.sharepoint.com/:p:/r/sites/NCTMS.Project.RID.COP-PILOT/_layouts/15/Doc.aspx?sourcedoc=%7B09058744-E65E-458A-98F9-1D58135CC8B5%7D&file=COP-PILOT-WP3-Orch-Peering-M21-Review.pptx&wdLOR=cBD2898BF-D315-428B-99D8-BB4C21387730&action=edit&mobileredirect=true), which provides an overview of how you should name your Catalog in OpenSlice, as well as your service. Then, under the appropriate catalog for your cluster, please add your service specification and inform the NETC team to review the name with the Technical Coordinator, George Katsikas, in order to approve it if it is representative. Also provide the address at which you would like your OpenSlice instance to be displayed in the HypO UI on slide 7-8.
+Before creating your service specification, please navigate to the presentation on the project's [SharePoint](https://cloud.coppilot.rid-netcompany.eu/apps/files/files/644?dir=/Documents/02.Technical%20documentation&openfile=true), which provides an overview of how you should name your Catalog in OpenSlice, as well as your service. Then, under the appropriate catalog for your cluster, please add your service specification and inform the NETC team to review the name with the Technical Coordinator, George Katsikas, in order to approve it if it is representative. Also provide the address at which you would like your OpenSlice instance to be displayed in the HypO UI on slide 7-8.
 
 
 ## ✅ Step 1 --- Validate CRIDGE Component

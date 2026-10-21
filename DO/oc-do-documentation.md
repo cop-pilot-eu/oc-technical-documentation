@@ -60,7 +60,7 @@ Guide:
 https://osl.etsi.org/documentation/latest/service_design/kubernetes/design_helm_aas/
 
 
-Also fill in this [excel sheet](https://cloud.coppilot.rid-netcompany.eu/apps/files/files/639?dir=/Documents/02.Technical%20documentation&openfile=true) with your contacts in order to create you an account and inform us in order to create it as soon as possible 
+Also fill in this [excel sheet](https://cloud.coppilot.rid-netcompany.eu/apps/files/files/639?dir=/Documents/02.Technical%20documentation&openfile=true) with your contacts in order to create you a CICD account to login to Harbor and rest CICD Services and inform us in order to create it as soon as possible.
 
 ------------------------------------------------------------------------
 

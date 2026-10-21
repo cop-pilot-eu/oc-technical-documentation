@@ -20,7 +20,7 @@ Each VM or server that connects to CloudZiti needs its own identity.
 
 1. Sign in to the [CloudZiti console](https://cop-pilot.cloudziti.io/).
 2. Create a new identity.
-3. Choose a clear, unique name that identifies the VM and its purpose. For an OpenSlice instance, use `openslice-<opencall>-<company>` (for example, `openslice-oc1-upv`). For other hosts, use a descriptive name such as `oc-jdoe-contextbroker`.
+3. Choose a clear, unique name that identifies the VM and its purpose. For an OpenSlice instance, use `openslice--<cluster>--<opencall>-<company>` (for example, `openslice-cl1-oc1-upv`). For other hosts, use a descriptive name such as `oc-jdoe-contextbroker`.
 4. Download the identity's JWT enrollment token.
 
 ![CloudZiti identity creation form](../img/create-identity-1.png)

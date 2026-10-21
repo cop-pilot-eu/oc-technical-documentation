@@ -54,10 +54,13 @@ https://osl.etsi.org/documentation/latest/getting_started/deployment/kubernetes/
 
 ------------------------------------------------------------------------
 
-## 🚀 Step 2 --- Install ArgoCD
+## 🚀 Step 2 --- Install ArgoCD and get Access to COP-PILOT CICD Services
 
 Guide:
 https://osl.etsi.org/documentation/latest/service_design/kubernetes/design_helm_aas/
+
+
+Also fill in this [excel sheet](https://cloud.coppilot.rid-netcompany.eu/apps/files/files/639?dir=/Documents/02.Technical%20documentation&openfile=true) with your contacts in order to create you an account and inform us in order to create it as soon as possible 
 
 ------------------------------------------------------------------------
 

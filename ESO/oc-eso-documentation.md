@@ -4,8 +4,8 @@ For the peering with the [HypO](https://portal.multi-domain-orchestrator.cop-pil
 
 To execute the pipeline and peer HypO with your OpenSlice instance, please ensure that an account is available for HypO to log in to your OpenSlice instance (OpenSlice Realm) with administrator privileges, using the following credentials:  
 
-- Username: oc-<your-username>
-- Password: your-password  
+- Username: hypo
+- Password: hypo-password  
 
 First, a pipeline is available that automatically creates a service to expose your OpenSlice instance in CloudZiti. A second pipeline handles the peering of your OpenSlice instance with the Multi-Domain Orchestrator.  
 

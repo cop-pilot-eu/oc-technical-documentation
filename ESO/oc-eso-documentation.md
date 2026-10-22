@@ -9,7 +9,7 @@ To execute the pipeline and peer HypO with your OpenSlice instance, please ensur
 
 First, a pipeline is available that automatically creates a service to expose your OpenSlice instance in CloudZiti. A second pipeline handles the peering of your OpenSlice instance with the Multi-Domain Orchestrator.  
 
-Once your OpenSlice (OS) instance is deployed, you can contact the NETC team to coordinate the execution of these pipelines.  
+Once your OpenSlice (OS) instance is deployed, you can contact the NETC (konstantinos.fragkos@netcompany.com & panagiotis.matzakos@netcompany.com) team to coordinate the execution of these pipelines.  
 
 Pipeline documentation:
 

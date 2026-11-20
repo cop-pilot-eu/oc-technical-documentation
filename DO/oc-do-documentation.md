@@ -3,7 +3,7 @@
 ## 📦 OpenSlice Installation
 
 Official documentation:
-https://osl.etsi.org/documentation/latest/getting_started/deployment/kubernetes/
+https://osl.etsi.org/documentation/2026Q2/getting_started/deployment/kubernetes/
 
 ------------------------------------------------------------------------
 

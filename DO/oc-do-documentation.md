@@ -60,7 +60,7 @@ Guide:
 https://osl.etsi.org/documentation/latest/service_design/kubernetes/design_helm_aas/
 
 
-Also fill in this [excel sheet](https://cloud.coppilot.rid-netcompany.eu/apps/files/files/639?dir=/Documents/02.Technical%20documentation&openfile=true) with your contacts in order to create you a CICD account to login to Harbor and rest CICD Services and inform us in order to create it as soon as possible.
+Also fill in this [excel sheet](https://cloud.coppilot.rid-netcompany.eu/apps/files/files/639?dir=/Documents/02.Technical%20documentation&openfile=true) with your contacts in order to create you a CICD account to login to Harbor and rest CICD Services and inform us in order to create it as soon as possible. You can host your artifacts (Helm charts and container images) in the Coppilot registry or use your own registry if you prefer, if yes you dont need to fill in this excel sheet.
 
 ------------------------------------------------------------------------
 
@@ -69,8 +69,8 @@ Also fill in this [excel sheet](https://cloud.coppilot.rid-netcompany.eu/apps/fi
 Guide:
 https://argo-cd.readthedocs.io/en/stable/user-guide/private-repositories/#helm
 
-- Once ArgoCD is installed, you need to log in to ArgoCD UI and add the [COP-PILOT Helm Chart Repository](https://harbor.cop-pilot.rid-intrasoft.eu) to the known repo list (guide). Project field should be “default”.
-  
+- Once ArgoCD is installed, you need to log in to ArgoCD UI and add the [COP-PILOT Helm Chart Repository](https://harbor.cop-pilot.rid-intrasoft.eu) you may use any registry of your choice. The use of the COP-PILOT registry is not mandatory, and you are free to host and manage your artifacts in your own registries. When configuring the repository in ArgoCD, ensure that the Project field is set to "default".
+
 - Ιf you have any doubts about filling in the fields, try the command `helm registry login {registry name} –username {username} –password {password}` until it succeeds. Then input these values in the ArgoUI. In case of an OCI registry, remember to tick the box “Enable OCI”.
 
 - Once you log in and upload/pull your Helm chart or image, you should use your CLI secret as the password when pulling or pushing. The CLI secret is available under your user profile in the top-right corner on the Harbor.
